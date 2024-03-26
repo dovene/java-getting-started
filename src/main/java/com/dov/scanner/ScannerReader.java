@@ -1,4 +1,4 @@
-package com.dov;
+package com.dov.scanner;
 
 import java.util.Scanner;
 
