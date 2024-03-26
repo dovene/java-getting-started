@@ -8,6 +8,41 @@
             "type": "java",
             "name": "StudentDBMain",
             "request": "launch",
+            "mainClass": "com.dov.database.StudentDBMain",
+            "projectName": "hello"
+        },
+        {
+            "type": "java",
+            "name": "AppFileReader",
+            "request": "launch",
+            "mainClass": "com.dov.file.AppFileReader",
+            "projectName": "hello"
+        },
+        {
+            "type": "java",
+            "name": "AppFileWriter",
+            "request": "launch",
+            "mainClass": "com.dov.file.AppFileWriter",
+            "projectName": "hello"
+        },
+        {
+            "type": "java",
+            "name": "ScannerReader",
+            "request": "launch",
+            "mainClass": "com.dov.scanner.ScannerReader",
+            "projectName": "hello"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionMain",
+            "request": "launch",
+            "mainClass": "com.dov.exception.ExceptionMain",
+            "projectName": "hello"
+        },
+        {
+            "type": "java",
+            "name": "StudentDBMain",
+            "request": "launch",
             "mainClass": "com.dov.database.school.StudentDBMain",
             "projectName": "hello"
         },

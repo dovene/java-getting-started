@@ -1,4 +1,4 @@
-package com.dov.database.school;
+package com.dov.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

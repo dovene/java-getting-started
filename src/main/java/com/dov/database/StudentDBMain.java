@@ -1,4 +1,4 @@
-package com.dov.database.school;
+package com.dov.database;
 
 import java.sql.SQLException;
 import java.util.Random;

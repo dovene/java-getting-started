@@ -1,4 +1,4 @@
-package com.dov.database.school;
+package com.dov.database;
 
 public class Student {
     private String firstName;
