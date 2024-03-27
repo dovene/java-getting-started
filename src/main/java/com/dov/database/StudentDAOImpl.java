@@ -19,6 +19,8 @@ public class StudentDAOImpl implements StudentDAO {
         preparedStatement.setString(2, student.getFirstName());
         preparedStatement.setString(3, student.getLastName());
         int rowsAffected = preparedStatement.executeUpdate();
+        preparedStatement.close();
+        connection.close();
         return rowsAffected > 0;
     }
 
