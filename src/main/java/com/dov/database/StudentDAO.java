@@ -9,7 +9,7 @@ public interface StudentDAO {
 
     void deleteStudent(int id);
 
-    void updateStudent(int id);
+    void updateStudent(int id, String frstName, String lastname);
 
     List<Student> getAllStudents() throws ClassNotFoundException, SQLException;
 
