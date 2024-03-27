@@ -51,15 +51,15 @@ public class StudentDAOImpl implements StudentDAO {
     }
 
     @Override
-    public void updateStudent(int id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'updateStudent'");
-    }
-
-    @Override
     public Student findStudentById(int id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findStudentById'");
+    }
+
+    @Override
+    public void updateStudent(int id, String frstName, String lastname) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updateStudent'");
     }
 
 }
